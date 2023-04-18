@@ -147,3 +147,14 @@ document.addEventListener('mouseup', handleMouseUp)
 document.addEventListener('touchstart', handleMouseDown)
 document.addEventListener('touchmove', handleMouseMove)
 document.addEventListener('touchend', handleMouseUp)
+
+
+
+/* frozen */
+
+
+var h1 = document.querySelector("h1");
+
+h1.addEventListener("input", function() {
+    this.setAttribute("data-heading", this.innerText);
+});

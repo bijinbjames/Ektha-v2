@@ -21,8 +21,8 @@
 
          
 
-            <h1 class="h1 hero-title">
-             <span class="span">EKTHA'23</span>
+            <h1 class="h1 hero-title" data-heading="Ektha'23">
+             <span class="span" >Ektha'23</span>
             </h1>
 			<p class="hero-subtitle"><i>The Ecstasy Of Unity</i></p>
 			<img class="ukf" width="90px"  src="./assets/images/logo_ukf.png"></img>
