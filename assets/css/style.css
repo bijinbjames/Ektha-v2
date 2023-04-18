@@ -399,7 +399,7 @@ body {
   padding: 4px;
   border-radius: 12%;
   right: 0%;
-  margin-left: 350%;
+  margin-left: 320%;
 }
 
 .nav-toggle-btn.active .menu,
@@ -541,6 +541,7 @@ border-radius: 12%; }
   font-weight: var(--fw-700);
   text-transform: uppercase;
   font-family: initial;
+  
 }
 
 .hero-title { margin-block: 30px 23px;
@@ -1966,4 +1967,6 @@ head::after {
   transition-duration: 0.7s;
 }
 
+
+/* sub image size */
 
