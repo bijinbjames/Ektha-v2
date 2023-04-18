@@ -25,7 +25,7 @@
              <span class="span">EKTHA'23</span>
             </h1>
 			<p class="hero-subtitle"><i>The Ecstasy Of Unity</i></p>
-			<img class="ukf" width="70px"  src="./assets/images/logo_ukf.png"></img>
+			<img class="ukf" width="90px"  src="./assets/images/logo_ukf.png"></img>
 			<p class="hero-subtitle2">Techno cultural fest</p>
 		<img class="sub-img" width="200px"  src="./assets/images/masque.png"></img>
 		<img class="sub-img2" width="120px" src="./assets/images/Natya.png"></img>

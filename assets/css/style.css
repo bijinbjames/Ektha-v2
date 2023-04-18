@@ -545,7 +545,7 @@ border-radius: 12%; }
   margin-left: 19rem;
   
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .hero-subtitle {
     margin-left: 18rem;
   }
@@ -580,7 +580,7 @@ border-radius: 12%; }
 }
 @media only screen and (max-width: 600px) {
   .ukf {
-    margin-left: 18rem;
+    margin-left: 19rem;
   }
 }
 
