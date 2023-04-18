@@ -1791,9 +1791,9 @@ head::after {
 }
 
 .carousel-item {
-  --items: 10;
-  --width: clamp(150px, 30vw, 300px);
-  --height: clamp(200px, 40vw, 400px);
+
+  --width: clamp(250px, 30vw, 300px);
+  --height: clamp(400px, 40vw, 400px);
   --x: calc(var(--active) * 800%);
   --y: calc(var(--active) * 200%);
   --rot: calc(var(--active) * 120deg);
