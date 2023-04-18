@@ -40,6 +40,7 @@
 
         </div>
       </section>
+	  
 <!----------------------------------------hero END-------------------------------------------->
 
 
@@ -82,6 +83,31 @@
       </section>
 
 ----------------------------------------------------------------------------------------------->
+
+<!----------------------------------------------date morph animation start --------------------------->
+<div id="container">
+	<span id="text1"></span>
+	<span id="text2"></span>
+</div>
+
+<svg id="filters">
+	<defs>
+		<filter id="threshold">
+			
+			<feColorMatrix in="SourceGraphic"
+					type="matrix"
+					values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+		</filter>
+	</defs>
+</svg>
+<!----------------------------------------------date morph animation end --------------------------->
+
+
+
+
 <!------------------------------------------section 1 start------------------------------------->
 <div class="section-wrapper">
 
@@ -90,7 +116,7 @@
 		<div class="carousel-box">
 			<div class="title">Paris</div>
 			<div class="num">01</div>
-			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
+			<img src="./assets/images/1.jpg" />
 		</div></a>
 	</div>
 
@@ -98,7 +124,7 @@
 		<div class="carousel-box">
 			<div class="title">Warsaw</div>
 			<div class="num">02</div>
-			<img src="https://media.istockphoto.com/id/1150545984/it/foto/palazzo-moderno-di-lusso-con-piscina.jpg?s=612x612&w=0&k=20&c=Pbrai_VGc9tUviMCF1UaBErdS1YGyIVWsD29jzMZwTY=" />
+			<img src="./assets/images/2.jpg" />
 		</div>
 	</div>
 
@@ -107,7 +133,7 @@
 			<div class="title">Madrid</div>
 			<div class="num">03</div>
 			<img
-				src="https://media.istockphoto.com/id/1214351345/it/foto/guardando-direttamente-lo-skyline-del-quartiere-finanziario-nel-centro-di-londra-immagine-di.jpg?s=612x612&w=0&k=20&c=oNNbPzPvcQ-4RA6AeatNIxHQIafBiXmDRtUUY0Ska-I="
+				src="./assets/images/3.jpg"
 			/>
 		</div>
 	</div>
@@ -116,7 +142,7 @@
 		<div class="carousel-box">
 			<div class="title">Sydney</div>
 			<div class="num">04</div>
-			<img src="https://media.istockphoto.com/id/904390980/it/foto/foto-di-architettura-contemporanea-astratta.jpg?s=612x612&w=0&k=20&c=_P4Wmx5nq5MeDuimpNklKCBlrLovmCyd9lfiMKeJZDs=" />
+			<img src="./assets/images/4.jpg" />
 		</div>
 	</div>
 	<a href="https://google.com">
@@ -124,7 +150,7 @@
 		<div class="carousel-box">
 			<div class="title">Istanbul</div>
 			<div class="num">05</div>
-			<img src="https://media.istockphoto.com/id/130408311/it/foto/piscina-allesterno-della-casa-moderna-al-crepuscolo.jpg?s=612x612&w=0&k=20&c=ZoVjx7uDjoHKmpM1ayW6UR1SQOoYh_xx-QMG_qeOYs0=" />
+			<img src="./assets/images/1.jpg" />
 		</div>
 	</div></a>
 
@@ -132,7 +158,7 @@
 		<div class="carousel-box">
 			<div class="title">Prague</div>
 			<div class="num">06</div>
-			<img src="https://media.istockphoto.com/id/1299954175/it/foto/villa-cubica-moderna.jpg?s=612x612&w=0&k=20&c=DhGhb3c1E3DW_fbrWJ_R_Zh0Lbwu6syFeRLsKlZ9no8=" />
+			<img src="./assets/images/1.jpg" />
 		</div>
 	</div>
 
@@ -140,7 +166,7 @@
 		<div class="carousel-box">
 			<div class="title">Munich</div>
 			<div class="num">07</div>
-			<img src="https://media.istockphoto.com/id/926689776/it/foto/vista-ad-angolo-basso-dei-grattacieli-di-new-york.jpg?s=612x612&w=0&k=20&c=DmEB0Ty7ZwDnBoU5SuA8FNevOp4G1UcECw5aS4vA9A8=" />
+			<img src="./assets/images/1.jpg" />
 		</div>
 	</div>
 
@@ -148,7 +174,7 @@
 		<div class="carousel-box">
 			<div class="title">Venice</div>
 			<div class="num">08</div>
-			<img src="https://media.istockphoto.com/id/1191376167/it/foto/villa-dellisola.jpg?s=612x612&w=0&k=20&c=PKslWo4FdbjinohKQlK_oWL34jqAsnzMTdy2bxEAf-I=" />
+			<img src="./assets/images/1.jpg" />
 		</div>
 	</div>
 
@@ -156,40 +182,30 @@
 		<div class="carousel-box">
 			<div class="title">Oslo</div>
 			<div class="num">09</div>
-			<img src="https://media.istockphoto.com/id/184316397/it/foto/londra-edifici-aziendali.jpg?s=612x612&w=0&k=20&c=XqrRxEPzFnwRFk7PQrCiu9-FPfCTPyMe5BKKaxYXCs8=" />
+			<img src="./assets/images/1.jpg" />
 		</div>
 	</div>
 	<div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">London</div>
 			<div class="num">10</div>
-			<img src="https://media.istockphoto.com/id/184619832/it/foto/distretto-finanziario-al-crepuscolo-londra.jpg?s=612x612&w=0&k=20&c=RAThrJOBY6vhlT6-kQpu9-9jLEzWToYfdw46S8B0Mu0=" />
+			<img src="./assets/images/1.jpg" />
 		</div>
 	</div>
 </div>
-  
       </div>
-
 <!------------------------------------------section 1 END------------------------------------->
+
+
 
 <!----------------------------------------footer include start ---------------------------------------------->
   <?php include("./assets/components/footer.php")?>
 <!----------------------------------------footer include End------------------------------------------>
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
   <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
     <ion-icon name="caret-up"></ion-icon>
   </a>
 
 
-
-
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js" defer></script>
 
   <!-- 

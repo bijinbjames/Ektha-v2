@@ -451,6 +451,10 @@ border-radius: 12%; }
   font-family: titlefont;
   src: url(../fonts/blanka-regular.otf);
 }
+@font-face {
+  font-family: ethnocentric;
+  src: url(../fonts/ethnocentric_rg.otf);
+}
 
 
 /*-----------------------------------*\
@@ -570,6 +574,7 @@ border-radius: 12%; }
   color: var(--marigold);
   font-size: var(--fs-8);
   font-weight: var(--fw-700);
+  font-family: ethnocentric;
   text-transform: uppercase;
 }
 
@@ -581,6 +586,7 @@ border-radius: 12%; }
 }
 @media only screen and (max-width: 600px) {
   .ukf {
+    margin-top: 10%;
     margin-left: 19rem;
   }
 }
@@ -2054,4 +2060,41 @@ h1 {
   h1 {
     transform: translate(-1%, 1vh);
   }
+}
+
+
+
+/* text Morph */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+
+
+#container {
+	/* Center the text in the viewport. */
+	position: absolute;
+	margin: auto;
+	width: 100vw;
+	height: 80pt;
+	top: 0;
+	bottom: 0;
+	
+	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
+	filter: url(#threshold) blur(0.6px);
+}
+
+/* Your average text styling */
+#text1, #text2 {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 80pt;
+  transform: translate(-1%, 60vh);
+	
+	text-align: center;
+  color: #e6a21b;
+  font-family: 'Aboreto', cursive;
+	user-select: none;
 }
