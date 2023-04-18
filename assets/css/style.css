@@ -320,13 +320,14 @@ body {
 
 
 .sub-img{
-
-  color: var(--marigold);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-700);
-  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  
 }
+.sub-img2{
 
+}
 
 /*-----------------------------------*\
   #HEADER
