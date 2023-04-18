@@ -19,18 +19,16 @@
 
           <div class="hero-content">
 
-            <p class="hero-subtitle">World Gaming</p>
+         
 
             <h1 class="h1 hero-title">
-              Create <span class="span">Manage</span> Matches
+             <span class="span">EKTHA'23</span>
             </h1>
-
-            <p class="hero-text">
-              Find technology or people for digital projects in public sector and Find an individual specialist develope
-              researcher.
-            </p>
-
-            <button class="btn skewBg">Read More</button>
+			<p class="hero-subtitle2">The Ecstasy Of Unity</p>
+			<p class="hero-subtitle">Techno cultural fest</p>
+		<img class="sub-img" width="400px"  src="./assets/images/masque.png"></img>
+		<img class="sub-img" width="150px" src="./assets/images/Natya.png"></img>
+         
 
           </div>
 

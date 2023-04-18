@@ -44,7 +44,6 @@
 
         <div class="footer-brand">
 
-          <a href="#" class="logo">Gamics</a>
 
           <p class="footer-text">
             Gamics marketplace the relase etras thats sheets continig passag.

@@ -1,4 +1,6 @@
 <header class="header">
+
+<!----------------------
     <div class="header-top">
       <div class="container">
         <div class="countdown-text">
@@ -31,9 +33,10 @@
         </div>
       </div>
     </div>
+
+    ------->
     <div class="header-bottom skewBg" data-header>
       <div class="container">
-        <a href="#" class="logo">Gamics</a>
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
             <li class="navbar-item">

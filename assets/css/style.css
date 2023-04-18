@@ -319,7 +319,13 @@ body {
 }
 
 
+.sub-img{
 
+  color: var(--marigold);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
 
 
 /*-----------------------------------*\
@@ -338,10 +344,11 @@ body {
 
 .header-bottom {
   position: absolute;
+  opacity: 100%;
   top: calc(100% - 1px);
   left: 0;
   width: 100%;
-  background-color: var(--raisin-black-2);
+  backdrop-filter: blur(15px);
   padding-block: 20px;
   z-index: 4;
 }
@@ -388,8 +395,11 @@ body {
 .nav-toggle-btn {
   color: var(--white);
   font-size: 30px;
-  border: 1px solid var(--white);
+  border: 3px solid var(--white);
   padding: 4px;
+  border-radius: 12%;
+  right: 0%;
+  margin-left: 350%;
 }
 
 .nav-toggle-btn.active .menu,
@@ -401,11 +411,12 @@ body {
 .navbar {
   background-color: var(--eerie-black-1);
   color: var(--white);
+  border-radius: 12%;
   position: absolute;
   top: 100%;
   right: 0;
   width: 100%;
-  max-width: 350px;
+  max-width: 100%;
   visibility: hidden;
   max-height: 0;
   transition: 0.25s var(--cubic-out);
@@ -418,17 +429,27 @@ body {
   transition-duration: 0.5s;
 }
 
-.navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_15); }
+.navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_15);
+border-radius: 12%; }
 
 .navbar-link {
-  padding: 10px 25px;
+  padding: 20px 25px;
   transition: var(--transition);
+  font-weight: 100%;
+  font-size: 100%;
+ 
+
 }
 
-.navbar-link:is(:hover, :focus) { background-color: var(--white_10); }
+.navbar-link:is(:hover, :focus) {
+  margin-left: 40%;
+   background-color: var(--white_10); }
 
 
-
+@font-face {
+  font-family: titlefont;
+  src: url(../fonts/blanka-regular.otf);
+}
 
 
 /*-----------------------------------*\
@@ -509,7 +530,7 @@ body {
   background-size: cover;
   background-position: center;
   text-align: center;
-  min-height: 100vh;
+  min-height: 10vh;
   display: grid;
   align-items: center;
 }
@@ -519,16 +540,26 @@ body {
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
   text-transform: uppercase;
+  font-family: initial;
 }
 
-.hero-title { margin-block: 15px 12px; }
+.hero-title { margin-block: 30px 23px;
+  font-family: titlefont;
+  letter-spacing: 3px;
+ }
 
 .hero-text {
   color: var(--light-gray-2);
   margin-block-end: 45px;
+  font-family: titlefont;
 }
 
-
+.hero-subtitle2 {
+  color: var(--marigold);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
 
 
 
@@ -1422,6 +1453,7 @@ body {
     font-weight: var(--fw-700);
     padding: 10px 20px;
     margin-inline: 5px;
+
   }
 
   .header :is(.social-wrapper, .social-list) {
@@ -1933,3 +1965,5 @@ head::after {
   --size: 2px;
   transition-duration: 0.7s;
 }
+
+
