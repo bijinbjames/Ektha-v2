@@ -57,13 +57,13 @@
   --fs-3: 3.6rem;
   --fs-4: 2.4rem;
   --fs-5: 2.2rem;
-  --fs-6: 2rem;
+  --fs-6: 1rem;
   --fs-7: 1.6rem;
   --fs-8: 1.5rem;
   --fs-9: 1.4rem;
   --fs-10: 1.3rem;
   --fs-11: 1.2rem;
-
+  --fs-8: 3rem;
   --fw-500: 500;
   --fw-600: 600;
   --fw-700: 700;
@@ -537,17 +537,27 @@ border-radius: 12%; }
 
 .hero-subtitle {
   color: var(--marigold);
-  font-size: var(--fs-6);
+  font-size: 1.7rem;
   font-weight: var(--fw-700);
   text-transform: uppercase;
   font-family: initial;
+  margin-top: 1%;
+  margin-left: 19rem;
   
 }
+@media only screen and (max-width: 600px) {
+  .hero-subtitle {
+    margin-left: 18rem;
+  }
+}
+
 
 .hero-title { margin-block: 30px 23px;
   font-family: titlefont;
   letter-spacing: 3px;
+  font-size: 9rem;
  }
+
 
 .hero-text {
   color: var(--light-gray-2);
@@ -557,9 +567,21 @@ border-radius: 12%; }
 
 .hero-subtitle2 {
   color: var(--marigold);
-  font-size: var(--fs-6);
+  font-size: var(--fs-8);
   font-weight: var(--fw-700);
   text-transform: uppercase;
+}
+
+.ukf{
+  color: var(--light-gray-2);
+  margin-block-end: 45px;
+  font-family: titlefont;
+  margin-left: 16rem;
+}
+@media only screen and (max-width: 600px) {
+  .ukf {
+    margin-left: 18rem;
+  }
 }
 
 
@@ -1791,7 +1813,7 @@ head::after {
 }
 
 .carousel-item {
-
+  --items: 10;
   --width: clamp(250px, 30vw, 300px);
   --height: clamp(300px, 40vw, 400px);
   --x: calc(var(--active) * 800%);

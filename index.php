@@ -34,7 +34,7 @@
           </div>
 
           <figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
-            <img src="./assets/images/hero-banner.png" width="700" height="700" alt="hero banner" class="w-100">
+            <img src="./assets/images/girl.png" width="700" height="700" alt="hero banner" class="w-100">
           </figure>
 
         </div>
@@ -85,12 +85,12 @@
 <div class="section-wrapper">
 
 <div class="carousel">
-	<div class="carousel-item">
+	<a href="https://google.com"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Paris</div>
 			<div class="num">01</div>
 			<img src="https://media.istockphoto.com/id/949299844/it/foto/vista-prospettica-dellesterno-delledificio-contemporaneo.jpg?s=612x612&w=0&k=20&c=_DR1aRHuTEV3EYBJo1ZXq1pF4SgwB9EVWQLaBj4sC5g=" />
-		</div>
+		</div></a>
 	</div>
 
 	<div class="carousel-item">
@@ -118,14 +118,14 @@
 			<img src="https://media.istockphoto.com/id/904390980/it/foto/foto-di-architettura-contemporanea-astratta.jpg?s=612x612&w=0&k=20&c=_P4Wmx5nq5MeDuimpNklKCBlrLovmCyd9lfiMKeJZDs=" />
 		</div>
 	</div>
-
+	<a href="https://google.com">
 	<div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Istanbul</div>
 			<div class="num">05</div>
 			<img src="https://media.istockphoto.com/id/130408311/it/foto/piscina-allesterno-della-casa-moderna-al-crepuscolo.jpg?s=612x612&w=0&k=20&c=ZoVjx7uDjoHKmpM1ayW6UR1SQOoYh_xx-QMG_qeOYs0=" />
 		</div>
-	</div>
+	</div></a>
 
 	<div class="carousel-item">
 		<div class="carousel-box">
