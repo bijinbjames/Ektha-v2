@@ -46,7 +46,7 @@
 
 
           <p class="footer-text">
-            Gamics marketplace the relase etras thats sheets continig passag.
+            
           </p>
 
           <ul class="contact-list">
@@ -57,7 +57,7 @@
               </div>
 
               <address class="item-text">
-                Address : PO Box W75 Street lan West new queens
+                Address : ESIC Medical College, Meenambalam-Mylavila Road Mylavila, near Parippally, Kerala 691302
               </address>
             </li>
 
@@ -66,7 +66,7 @@
                 <ion-icon name="headset"></ion-icon>
               </div>
 
-              <a href="tel:+241245654235" class="item-text">Phone : +24 1245 654 235</a>
+              <a href="tel:+241245654235" class="item-text">Phone : 0474 257 7958</a>
             </li>
 
             <li class="contact-item">
@@ -74,7 +74,7 @@
                 <ion-icon name="mail-open"></ion-icon>
               </div>
 
-              <a href="mailto:info@exemple.com" class="item-text">Email : info@exemple.com</a>
+              <a href="mailto:info@exemple.com" class="item-text">Email : info@ektha23.live</a>
             </li>
 
           </ul>
@@ -197,12 +197,12 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 Gamics. All Right Reserved by <a href="#" class="copyright-link">codewithsadee</a>
+          &copy; 2023 Ektha. All Right Reserved by <a href="#" class="copyright-link">Ektha Web Team</a>
         </p>
-
+        <!-------
         <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
           class="footer-bottom-img">
-
+      ----->
       </div>
     </div>
 
