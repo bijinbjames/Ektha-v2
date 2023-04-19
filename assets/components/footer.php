@@ -85,27 +85,23 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Products</p>
+            <p class="footer-list-title">home</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Graphics (26)</a>
+            <a href="comingsoon.php"  class="footer-link">workshop</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Backgrounds (11)</a>
+            <a href="comingsoon.php"  class="footer-link">events</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Fonts (9)</a>
+            <a href="comingsoon.php"  class="footer-link">proshow</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Music (3)</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Photography (3)</a>
+            <a href="comingsoon.php"  class="footer-link">team</a>
           </li>
 
         </ul>
@@ -117,24 +113,18 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
+            <a href="comingsoon.php"  class="footer-link">Terms & Conditions</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="comingsoon.php"  class="footer-link">Privacy Policy</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Refund Policy</a>
+            <a href="comingsoon.php"  class="footer-link">Refund Policy</a>
           </li>
 
-          <li>
-            <a href="#" class="footer-link">Affiliate</a>
-          </li>
 
-          <li>
-            <a href="#" class="footer-link">Use Cases</a>
-          </li>
 
         </ul>
 
@@ -147,25 +137,25 @@
             <ul class="social-list">
 
               <li>
-                <a href="#" class="social-link" style="background-color: #3b5998">
+                <a href="comingsoon.php"  class="social-link" style="background-color: #3b5998">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link" style="background-color: #55acee">
+                <a href="comingsoon.php"  class="social-link" style="background-color: #55acee">
                   <ion-icon name="logo-twitter"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link" style="background-color: #d71e18">
+                <a href="comingsoon.php"  class="social-link" style="background-color: #d71e18">
                   <ion-icon name="logo-pinterest"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="social-link" style="background-color: #1565c0">
+                <a href="comingsoon.php"  class="social-link" style="background-color: #1565c0">
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
               </li>
@@ -198,7 +188,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2023 Ektha. All Right Reserved by <a href="#" class="copyright-link">Ektha Web Team</a>
+          &copy; 2023 Ektha. All Right Reserved by <a href="comingsoon.php"  class="copyright-link">Ektha Web Team</a>
         </p>
         <!-------
         <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""

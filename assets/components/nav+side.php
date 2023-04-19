@@ -36,23 +36,24 @@
 
     ------->
     <div class="header-bottom skewBg" data-header>
+      
       <div class="container">
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="" class="navbar-link skewBg" data-nav-link>Home</a>
+              <a href="comingsoon.php" class="navbar-link skewBg" data-nav-link>Home</a>
             </li>
             <li class="navbar-item">
-              <a href="" class="navbar-link skewBg" data-nav-link>Wokshop</a>
+              <a href="comingsoon.php"  class="navbar-link skewBg" data-nav-link>Workshop</a>
             </li>
             <li class="navbar-item">
-              <a href="" class="navbar-link skewBg" data-nav-link>events</a>
+              <a href="comingsoon.php"  class="navbar-link skewBg" data-nav-link>Events</a>
             </li>
             <li class="navbar-item">
-              <a href="" class="navbar-link skewBg" data-nav-link>Proshow</a>
+              <a href="comingsoon.php"  class="navbar-link skewBg" data-nav-link>Proshow</a>
             </li>
             <li class="navbar-item">
-              <a href="" class="navbar-link skewBg" data-nav-link>team</a>
+              <a href="comingsoon.php"  class="navbar-link skewBg" data-nav-link>Team</a>
             </li>
           </ul>
         </nav>

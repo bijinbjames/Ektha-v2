@@ -11,7 +11,11 @@
  <?php include("./assets/components/search.php")?>
  <!----------------------------------------search include end----------------------------------------->
  <main>
+	<div class="body"></div>
     <article>
+
+
+
 <!----------------------------------------hero start------------------------------------------------->
 
       <section class="section hero" id="home" aria-label="home">
@@ -42,6 +46,7 @@
       </section>
 	  
 <!----------------------------------------hero END-------------------------------------------->
+
 
 
 
@@ -83,6 +88,10 @@
       </section>
 
 ----------------------------------------------------------------------------------------------->
+
+
+
+
 
 <!----------------------------------------------date morph animation start --------------------------->
 <div id="container">
@@ -133,7 +142,7 @@
 			<div class="title">Proshow</div>
 			<div class="num">03</div>
 			<img
-				src="./assets/images/proshow.jpg"
+				src="./assets/images/proshow.png"
 			/>
 		</div>
 	</div>
@@ -150,7 +159,7 @@
 		<div class="carousel-box">
 			<div class="title">Events</div>
 			<div class="num">05</div>
-			<img src="./assets/images/events.jpeg" />
+			<img src="./assets/images/events.jpg" />
 		</div>
 	</div></a>
 
@@ -198,22 +207,37 @@
 
 
 
+<!-------------------------------------------Pro Show start---------------------------------->
+
+<div class="proshow">
+  <div class="card card-one">
+    <div class="profileImg first"></div>
+   
+
+  </div>
+  <div class="card card-two">
+    <div class="profileImg second"></div>
+
+  </div>
+  <div class="card card-three">
+    <div class="profileImg third"></div>
+
+  </div>
+ 
+</div>
+<!-------------------------------------------Pro Show end---------------------------------->
+
+
+
+
 <!----------------------------------------footer include start ---------------------------------------------->
   <?php include("./assets/components/footer.php")?>
 <!----------------------------------------footer include End------------------------------------------>
   <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
     <ion-icon name="caret-up"></ion-icon>
   </a>
-
-
   <script src="./assets/js/script.js" defer></script>
-
-  <!-- 
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
-
 </html>
