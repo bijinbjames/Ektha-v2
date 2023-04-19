@@ -210,12 +210,12 @@
 
 
 <!-------------------------------------------Pro Show start---------------------------------->
-
+<div class="live-match">
+	<div class="section-title"><div class="live-match-subtitle"><div class="live-match-time"> Proshow</div> 
+</div></div></div>
 <div class="proshow">
   <div class="card card-one">
     <div class="profileImg first"></div>
-   
-
   </div>
   <div class="card card-two">
     <div class="profileImg second"></div>
@@ -227,6 +227,7 @@
   </div>
  
 </div>
+
 <!-------------------------------------------Pro Show end---------------------------------->
 
 

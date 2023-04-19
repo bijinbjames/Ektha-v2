@@ -747,12 +747,13 @@ border-radius: 12%; }
 }
 
 .live-match-time {
+  border-radius: 12px;
   color: var(--xiketic);
   font-size: var(--fs-1);
   font-weight: var(--fw-700);
   max-width: max-content;
   margin-inline: auto;
-  line-height: 1;
+  line-height: 2;
 }
 
 
