@@ -326,9 +326,7 @@ body {
   padding: 4px;
   
 }
-.sub-img2{
 
-}
 
 /*-----------------------------------*\
   #HEADER
@@ -1930,23 +1928,6 @@ head::after {
 
 
 
-.social {
-  position: absolute;
-  z-index: 10;
-  bottom: 20px;
-  right: 25px;
-  color: #fff;
-  opacity: 0.4;
-}
-.social a {
-  display: inline-block;
-  margin-left: 3px;
-}
-.social svg {
-  --fill: #fff;
-  width: 35px;
-  height: 35px;
-}
 
 .cursor {
   position: fixed;
@@ -1971,7 +1952,7 @@ head::after {
 
 .cursor2 {
   --size: 2px;
-  transition-duration: 0.7s;
+  transition-duration: 3s;
 }
 
 
