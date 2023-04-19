@@ -121,7 +121,8 @@
 <div class="section-wrapper">
 
 <div class="carousel">
-	<a href="https://google.com"><div class="carousel-item">
+	<a href="comingsoon.php">
+		<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Games</div>
 			<div class="num">01</div>
@@ -129,15 +130,15 @@
 		</div></a>
 	</div>
 
-	<div class="carousel-item">
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Cultural</div>
 			<div class="num">02</div>
-			<img src="./assets/images/cultural.jpg" />
-		</div>
+			<img src="./assets/images/cultural.jpg"/>
+		</div></a>
 	</div>
 
-	<div class="carousel-item">
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Proshow</div>
 			<div class="num">03</div>
@@ -147,59 +148,59 @@
 		</div>
 	</div>
 
-	<div class="carousel-item">
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Sports</div>
 			<div class="num">04</div>
-			<img src="./assets/images/sports.jpg" />
-		</div>
+			<img src="./assets/images/sports.jpg"/>
+		</div></a>
 	</div>
-	<a href="https://google.com">
-	<div class="carousel-item">
+
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Events</div>
 			<div class="num">05</div>
-			<img src="./assets/images/events.jpg" />
-		</div>
-	</div></a>
+			<img src="./assets/images/events.jpg"/>
+		</div></a>
+	</div>
 
-	<<div class="carousel-item">
+	<<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Guests</div>
 			<div class="num">06</div>
-			<img src="./assets/images/guests.png" />
-		</div>
+			<img src="./assets/images/guests.png"/>
+		</div></a>
 	</div>
 
-	<div class="carousel-item">
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Expo</div>
 			<div class="num">07</div>
-			<img src="./assets/images/expo.png" />
-		</div>
+			<img src="./assets/images/expo.png"/>
+		</div></a>
 	</div>
 
-	<div class="carousel-item">
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Robowar</div>
 			<div class="num">08</div>
-			<img src="./assets/images/robowar.jpg" />
-		</div>
+			<img src="./assets/images/robowar.jpg"/>
+		</div></a>
 	</div>
 
-	<div class="carousel-item">
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Burnout</div>
 			<div class="num">09</div>
-			<img src="./assets/images/burnout.jpg" />
-		</div>
+			<img src="./assets/images/burnout.jpg"/>
+		</div></a>
 	</div>
-	<div class="carousel-item">
+	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">E-Sports</div>
 			<div class="num">10</div>
-			<img src="./assets/images/esports.jpg" />
-		</div>
+			<img src="./assets/images/esports.jpg"/>
+		</div></a>
 	</div>
 </div>
       </div>

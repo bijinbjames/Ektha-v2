@@ -36,7 +36,7 @@
 
     ------->
     <div class="header-bottom skewBg" data-header>
-      
+
       <div class="container">
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
@@ -59,12 +59,14 @@
         </nav>
 
         <div class="header-actions">
-
+<!----
           <button class="cart-btn" aria-label="cart">
             <ion-icon name="cart"></ion-icon>
 
             <span class="cart-badge">0</span>
           </button>
+
+          --->
 
           <button class="search-btn" aria-label="open search" data-search-toggler>
             <ion-icon name="search-outline"></ion-icon>

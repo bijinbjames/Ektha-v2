@@ -2048,14 +2048,13 @@ h1 {
 	width: 100%;
 	display: inline-block;
 	
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	font-size: 80pt;
   transform: translate(-1%, 60vh);
 	
 	text-align: center;
-  color: #e6a21b;
-  font-family: 'Aboreto', cursive;
-  font-weight: 800;
+  color: #796e6e;
+  font-weight: 900;
 	user-select: none;
 }
 

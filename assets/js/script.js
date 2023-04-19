@@ -59,7 +59,7 @@ Vars
 let progress = 50
 let startX = 0
 let active = 0
-let isDown = true
+let isDown = false
 
 /*--------------------
 Contants
@@ -99,9 +99,11 @@ animate()
 /*--------------------
 Click on Items
 --------------------*/
+
 $items2.forEach((item, i) => {
   item.addEventListener('click', () => {
-    progress = (i/$items.length) * 100 + 10
+    progress = 10
+    
     animate()
   })
 })
@@ -179,9 +181,9 @@ const elts = {
 
 // The strings to morph between. You can change these to anything you want!
 const texts = [
-	"May 3",
-  "May 4",
-  "May 5"
+	"May 3/4/5",
+  "2023",
+  "UKFCET"
 
 ];
 
