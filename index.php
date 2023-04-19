@@ -3,15 +3,16 @@
   <!----------------------------------------head include---------------------------------------------->
 <?php include("./assets/components/head.php")?>
 <!----------------------------------------head include End------------------------------------------>
-<body id="top">
+<body id="top" onload="function_loader()">
   <!----------------------------------------nav  include start------------------------------------------>
   <?php include("./assets/components/nav+side.php")?>
   <!----------------------------------------nav include end---------------------------------------------->
  <!----------------------------------------search include start-------------------------------------------->
  <?php include("./assets/components/search.php")?>
  <!----------------------------------------search include end----------------------------------------->
+
  <main>
-	<div class="body"></div>
+	<div class="body" >
     <article>
 
 
@@ -93,7 +94,7 @@
 
 
 
-<!----------------------------------------------date morph animation start ------------------------
+<!----------------------------------------------date morph animation start --------------------------->
 <div id="container">
 	<span id="text1"></span>
 	<span id="text2"></span>
@@ -112,7 +113,7 @@
 		</filter>
 	</defs>
 </svg>
---------------------------------------------date morph animation end --------------------------->
+<!----------------------------------------------date morph animation end --------------------------->
 
 
 
@@ -134,8 +135,8 @@
 		<div class="carousel-box">
 			<div class="title">Cultural</div>
 			<div class="num">02</div>
-			<img src="./assets/images/cultural.jpg"/>
-		</div></a>
+			<img src="./assets/images/cultural.jpg" />
+		</div>
 	</div>
 
 	<a href="comingsoon.php"><div class="carousel-item">
@@ -152,55 +153,55 @@
 		<div class="carousel-box">
 			<div class="title">Sports</div>
 			<div class="num">04</div>
-			<img src="./assets/images/sports.jpg"/>
-		</div></a>
+			<img src="./assets/images/sports.jpg" />
+		</div>
 	</div>
 
 	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Events</div>
 			<div class="num">05</div>
-			<img src="./assets/images/events.jpg"/>
-		</div></a>
+			<img src="./assets/images/events.jpg" />
+		</div>
 	</div>
 
 	<<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Guests</div>
 			<div class="num">06</div>
-			<img src="./assets/images/guests.png"/>
-		</div></a>
+			<img src="./assets/images/guests.png" />
+		</div>
 	</div>
 
 	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Expo</div>
 			<div class="num">07</div>
-			<img src="./assets/images/expo.png"/>
-		</div></a>
+			<img src="./assets/images/expo.png" />
+		</div>
 	</div>
 
 	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Robowar</div>
 			<div class="num">08</div>
-			<img src="./assets/images/robowar.jpg"/>
-		</div></a>
+			<img src="./assets/images/robowar.jpg" />
+		</div>
 	</div>
 
 	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">Burnout</div>
 			<div class="num">09</div>
-			<img src="./assets/images/burnout.jpg"/>
-		</div></a>
+			<img src="./assets/images/burnout.jpg" />
+		</div>
 	</div>
 	<a href="comingsoon.php"><div class="carousel-item">
 		<div class="carousel-box">
 			<div class="title">E-Sports</div>
 			<div class="num">10</div>
-			<img src="./assets/images/esports.jpg"/>
-		</div></a>
+			<img src="./assets/images/esports.jpg" />
+		</div>
 	</div>
 </div>
       </div>

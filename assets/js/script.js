@@ -263,3 +263,19 @@ function animate1() {
 		doCooldown();
 	}
 }
+
+
+/* loader script*/
+
+function function_loader() {
+  document.getElementById("loader").style.visibility = "visible";
+  document.getElementById("body").style.visibility = "hidden";
+  myVar = setInterval(alertFunc, 4000);
+}
+function alertFunc() {
+  document.getElementById("loader").style.visibility = "hidden";
+  document.getElementById("body").style.visibility = "visible";
+  document.getElementById("body").style.display = "block";
+  
+  
+}
