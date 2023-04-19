@@ -1876,7 +1876,7 @@ head::after {
   bottom: 20px;
   left: 20px;
   transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
-  font-size: clamp(20px, 3vw, 30px);
+  font-size: clamp(30px, 3vw, 30px);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 .carousel-item .num {
@@ -2096,5 +2096,6 @@ h1 {
 	text-align: center;
   color: #e6a21b;
   font-family: 'Aboreto', cursive;
+  font-weight: 800;
 	user-select: none;
 }

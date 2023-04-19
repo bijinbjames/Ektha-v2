@@ -1,3 +1,4 @@
+<!--------
 <section class="newsletter" aria-label="newsletter">
         <div class="container">
 
@@ -31,7 +32,7 @@
 
     </article>
   </main>
-
+---->
 
 
 

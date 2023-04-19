@@ -76,6 +76,7 @@ const getZindex = (array, index) => (array.map((_, i) => (index === i) ? array.l
 Items
 --------------------*/
 const $items = document.querySelectorAll('.carousel-item')
+const $items2 = document.querySelectorAll('.cart-btn')
 const $cursors = document.querySelectorAll('.cursor')
 
 const displayItems = (item, index, active) => {
@@ -98,7 +99,7 @@ animate()
 /*--------------------
 Click on Items
 --------------------*/
-$items.forEach((item, i) => {
+$items2.forEach((item, i) => {
   item.addEventListener('click', () => {
     progress = (i/$items.length) * 100 + 10
     animate()

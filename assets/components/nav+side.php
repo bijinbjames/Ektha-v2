@@ -58,13 +58,13 @@
         </nav>
 
         <div class="header-actions">
-<!--------------------------------------shoping car
+
           <button class="cart-btn" aria-label="cart">
             <ion-icon name="cart"></ion-icon>
 
             <span class="cart-badge">0</span>
           </button>
------------------------------------------------------->
+
           <button class="search-btn" aria-label="open search" data-search-toggler>
             <ion-icon name="search-outline"></ion-icon>
           </button>
