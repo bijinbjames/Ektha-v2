@@ -2047,10 +2047,9 @@ h1 {
 	position: absolute;
 	width: 100%;
 	display: inline-block;
-	
 	font-family: 'Orbitron', sans-serif;
-	font-size: 80pt;
-  transform: translate(-1%, 60vh);
+	font-size: 70pt;
+  transform: translate(-1%, 50vh);
 	
 	text-align: center;
   color: #796e6e;
