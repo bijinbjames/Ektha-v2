@@ -689,13 +689,17 @@ border-radius: 12%; }
 .live-match {
   padding-block-start: 0;
   overflow-x: hidden;
+  border-radius: 12px;
 }
 
-.live-match .section-title { margin-block-end: 90px; }
+.live-match .section-title { margin-block-end: 90px;
+  border-radius: 12px;
+ }
 
 .live-match-banner {
   position: relative;
-
+  border-radius: 12px;
+  border-radius: 12px;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: var(--shadow-3);
@@ -736,11 +740,12 @@ border-radius: 12%; }
 .live-match-subtitle {
   background-color: var(--marigold);
   color: var(--white);
-  font-size: var(--fs-9);
+  font-size: 12px;
+  border-radius: 20%;
   text-transform: uppercase;
   font-weight: var(--fw-700);
   letter-spacing: 2px;
-  padding: 4px 20px;
+  padding: 1px 15px;
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 30px;
