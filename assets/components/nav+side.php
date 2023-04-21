@@ -42,10 +42,13 @@
     <div class="header-bottom skewBg" data-header>
 
       <div class="container">
-        <nav class="navbar" data-navbar>
+        <nav class="navbar" data-navbar> 
           <ul class="navbar-list">
             <li class="navbar-item">
               <a href="comingsoon.php" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+            <li class="navbar-item">
+            <a href="nirthya"  class="footer-link">Nirthya</a>
             </li>
             <li class="navbar-item">
               <a href="comingsoon.php"  class="navbar-link skewBg" data-nav-link>Workshop</a>

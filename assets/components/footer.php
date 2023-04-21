@@ -58,7 +58,7 @@
               </div>
 
               <address class="item-text">
-                Address : ESIC Medical College, Meenambalam-Mylavila Road Mylavila, near Parippally, Kerala 691302
+                Address : Near Govt. Medical Collage, Meenambalam,paripally, kollam - 691302
               </address>
             </li>
 
@@ -75,7 +75,7 @@
                 <ion-icon name="mail-open"></ion-icon>
               </div>
 
-              <a href="mailto:info@exemple.com" class="item-text">Email : info@ektha23.live</a>
+              <a href="mailto:info@exemple.com" class="item-text">Email : support@ukfcet.ac.in</a>
             </li>
 
           </ul>
@@ -103,6 +103,9 @@
           <li>
             <a href="comingsoon.php"  class="footer-link">team</a>
           </li>
+          <li>
+            <a href="nirthya"  class="footer-link">Nirthya</a>
+          </li>
 
         </ul>
 
@@ -113,16 +116,13 @@
           </li>
 
           <li>
-            <a href="comingsoon.php"  class="footer-link">Terms & Conditions</a>
+            <a href="../../Ektha23_Brochure.pdf"  class="footer-link">Brochure</a>
           </li>
 
           <li>
-            <a href="comingsoon.php"  class="footer-link">Privacy Policy</a>
+            <a href="../../Ektha23_Flyer.pdf"  class="footer-link">Flyer</a>
           </li>
 
-          <li>
-            <a href="comingsoon.php"  class="footer-link">Refund Policy</a>
-          </li>
 
 
 
@@ -137,47 +137,24 @@
             <ul class="social-list">
 
               <li>
-                <a href="comingsoon.php"  class="social-link" style="background-color: #3b5998">
+                <a href="https://www.facebook.com/ukfcollage"  class="social-link" style="background-color: #3b5998">
                   <ion-icon name="logo-facebook"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="comingsoon.php"  class="social-link" style="background-color: #55acee">
-                  <ion-icon name="logo-twitter"></ion-icon>
+                <a href="https://www.instagram.com/ukfcollageofengineering"  class="social-link" style="background-color: #405DE6">
+                  <ion-icon name="logo-instagram"></ion-icon>
                 </a>
               </li>
 
-              <li>
-                <a href="comingsoon.php"  class="social-link" style="background-color: #d71e18">
-                  <ion-icon name="logo-pinterest"></ion-icon>
-                </a>
-              </li>
-
-              <li>
-                <a href="comingsoon.php"  class="social-link" style="background-color: #1565c0">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-              </li>
+     
 
             </ul>
 
           </div>
 
-          <div class="footer-newsletter">
-
-            <p class="footer-list-title">Newsletter Sign Up</p>
-
-            <form action="" class="footer-newsletter">
-              <input type="email" name="email_address" aria-label="email" placeholder="Enter your email" required
-                class="email-field">
-
-              <button type="submit" class="footer-btn" aria-label="submit">
-                <ion-icon name="rocket"></ion-icon>
-              </button>
-            </form>
-
-          </div>
+ 
 
         </div>
 
