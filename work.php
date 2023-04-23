@@ -1,28 +1,70 @@
 <style>
 
 
+@import url("https://fonts.googleapis.com/css?family=Poppins:400");
 
-section::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(#DA22FF, #9733EE);
-	clip-path: circle(30% at right 70%);
+
+.cat{
+	margin-top: 200px;
+
+	padding: 2em 1rem;
+	text-align: center;
 }
 
-section::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(#E55D87, #5FC3E4);
-	clip-path: circle(20% at 10% 10%);
+[type="radio"]{
+  display: none;
 }
+label{
+  padding: 1rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.25s;
+  font-size: 2rem;
+  color: black;
+  background-color: blue;
+
+    padding: 0.5rem 1rem;
+  top: 0;
+  position: sticky;
+  background: black;
+  display: inline-block;
+    background: silver;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
+
+}
+[type="radio"]:checked + label{
+	background: red;
+}
+[type="radio"]:nth-of-type(2):checked ~ .gallery .card:not(.COMPUTER_SCIENCE),
+[type="radio"]:nth-of-type(3):checked ~ .gallery .card:not(.ELECTRICAL),
+[type="radio"]:nth-of-type(4):checked ~ .gallery .card:not(.ELECTRONICS),
+[type="radio"]:nth-of-type(5):checked ~ .gallery .card:not(.CIVIL),
+[type="radio"]:nth-of-type(6):checked ~ .gallery .card:not(.MECHANICAL)
+
+{
+  display: none;
+}
+
+
+.card:hover{
+  box-shadow: 0 0 25px #0009;
+}
+.card__image{
+  width: 100%;
+  object-fit: cover;
+}
+.card__caption{
+	font-weight: bold;
+  font-variant: small-caps;
+  padding: 0.5rem;
+  text-align: center;
+  color: gold;
+}
+
+
+
+
 
 .container {
 	position: relative;
@@ -132,95 +174,54 @@ section::after {
  <!----------------------------------------search include end----------------------------------------->
 
 <body id="body">
-	<section>
+	<div class="cat">
+	<input type="radio" name="filter" id="all" checked><label for="all">ALL</label>
+  <input type="radio" name="filter" id="COMPUTER_SCIENCE"><label for="COMPUTER_SCIENCE">COMPUTER SCIENCE</label>
+  <input type="radio" name="filter" id="ELECTRICAL"><label for="ELECTRICAL">ELECTRICAL</label>
+  <input type="radio" name="filter" id="ELECTRONICS"><label for="ELECTRONICS">ELECTRONICS</label>
+  <input type="radio" name="filter" id="CIVIL"><label for="CIVIL">CIVIL</label>
+  <input type="radio" name="filter" id="MECHANICAl"><label for="MECHANICAl">MECHANICAl</label>
+<div class="gallery">
+    <section>
 		<div class="container">
+<div class="card COMPUTER_SCIENCE">
+        <div class="content">
+            <div class="imgBx">
+                <img src="https://image.flaticon.com/icons/png/256/4213/4213732.png">
+            </div>
+            <div class="contentBx">
+                <h3>COMPUTER SCIENCE<br></h3>
+            </div>
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="">content 1</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card COMPUTER_SCIENCE">
+        <div class="content">
+            <div class="imgBx">
+                <img src="https://image.flaticon.com/icons/png/256/4213/4213732.png">
+            </div>
+            <div class="contentBx">
+                <h3>COMPUTER SCIENCE<br></h3>
+            </div>
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="">content 1</a>
+            </li>
+        </ul>
+    </div>
 
-		<div class="card">
-				<div class="content">
-					<div class="imgBx">
-						<img src="https://image.flaticon.com/icons/png/256/4213/4213732.png">
-					</div>
-					<div class="contentBx">
-						<h3>COMPUTER SCIENCE<br></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
-						<a href="">content 1</a>
-					</li>
-					<li>
-						<a href="">content 2</a>
-					</li>
-					<li>
-						<a href="">content 3</a>
-					</li>
-				</ul>
-			</div>
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-						<img src="https://image.flaticon.com/icons/png/256/4213/4213732.png">
-					</div>
-					<div class="contentBx">
-						<h3>COMPUTER SCIENCE<br></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
-						<a href="">content 1</a>
-					</li>
-					<li>
-						<a href="">content 2</a>
-					</li>
-					<li>
-						<a href="">content 3</a>
-					</li>
-				</ul>
-			</div>
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-						<img src="https://image.flaticon.com/icons/png/256/4213/4213732.png">
-					</div>
-					<div class="contentBx">
-						<h3>COMPUTER SCIENCE<br></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
-						<a href="">content 1</a>
-					</li>
-					<li>
-						<a href="">content 2</a>
-					</li>
-					<li>
-						<a href="">content 3</a>
-					</li>
-				</ul>
-			</div>
-			<div class="card">
-				<div class="content">
-					<div class="imgBx">
-						<img src="https://image.flaticon.com/icons/png/256/4213/4213732.png">
-					</div>
-					<div class="contentBx">
-						<h3>COMPUTER SCIENCE<br></h3>
-					</div>
-				</div>
-				<ul class="sci">
-					<li>
-						<a href="">content 1</a>
-					</li>
-					<li>
-						<a href="">content 2</a>
-					</li>
-					<li>
-						<a href="">content 3</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
+
+</div>
+</section>
+</div>
+</div>
+
+	
 </body>
 
 <!----------------------------------------footer include start ---------------------------------------------->

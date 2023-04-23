@@ -270,7 +270,7 @@ function animate1() {
 function function_loader() {
   document.getElementById("loader").style.visibility = "visible";
   document.getElementById("body").style.visibility = "hidden";
-  myVar = setInterval(alertFunc, 4000);
+  myVar = setInterval(alertFunc, 40);
 }
 function alertFunc() {
   document.getElementById("loader").style.visibility = "hidden";
